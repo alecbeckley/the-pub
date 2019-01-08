@@ -1,0 +1,41 @@
+/*===== Google Fonts =====*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches');
+
+/*===== Variables ======*/
+$primary-font: 'Staatliches', serif;
+$secondary-font: 'Montserrat', sans-serif;
+
+/*===== Mixins =====*/
+
+/*===== General Styling =====*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  border-radius: 0;
+}
+
+/*===== Media Queries =====*/
+
+// Small devices (landscape phones, 375px and up)
+@media (min-width: 375px) {
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
