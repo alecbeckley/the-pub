@@ -5,9 +5,12 @@
 $primary-font: 'Staatliches', serif;
 $secondary-font: 'Montserrat', sans-serif;
 
+$primary-color: #d4af37;
+
 /*===== Mixins =====*/
 
 /*===== General Styling =====*/
+//No white space
 html,
 body {
   width: 100%;
@@ -16,6 +19,11 @@ body {
   padding: 0px;
   overflow-x: hidden;
   border-radius: 0;
+}
+
+//Hamburger Button
+.navbar > .navbar-toggler > .navbar-toggler-icon {
+  background-image: url("../img/hamburger.png");
 }
 
 /*===== Media Queries =====*/
@@ -64,6 +72,25 @@ body {
 @media (min-width: 1000px) {
 
   //Navigation Bar
+  .navbar {
+    background-color: black;
+    display: flex;
+  }
+
+  .navbar > .navbar-collapse {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-item {
+    color: white;
+    font-family: $primary-font;
+    font-size: 1.4em;
+  }
+
+  .nav-item:hover {
+    color: $primary-color;
+  }
   //Navigation Bar
 
   //Header

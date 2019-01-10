@@ -12,6 +12,25 @@ body {
   overflow-x: hidden;
   border-radius: 0; }
 
+.navbar > .navbar-toggler > .navbar-toggler-icon {
+  background-image: url("../img/hamburger.png"); }
+
 /*===== Media Queries =====*/
+@media (min-width: 1000px) {
+  .navbar {
+    background-color: black;
+    display: flex; }
+
+  .navbar > .navbar-collapse {
+    display: flex;
+    justify-content: space-evenly; }
+
+  .nav-item {
+    color: white;
+    font-family: "Staatliches", serif;
+    font-size: 1.4em; }
+
+  .nav-item:hover {
+    color: #d4af37; } }
 
 /*# sourceMappingURL=index.css.map */
