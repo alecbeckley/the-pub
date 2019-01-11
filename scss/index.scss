@@ -131,7 +131,7 @@ body {
     
 }
 
-// Tablets (700px and up)
+// Tablets (576px and up)
 @media (min-width: 700px) {
 
   //Navigation Bar
@@ -144,6 +144,9 @@ body {
   //Picture Carousel
 
   //News Feed
+  .news-feed > .card-deck {
+    display: block;
+  }
   //News Feed
 
   //Footer
@@ -164,6 +167,10 @@ body {
   //Picture Carousel
 
   //News Feed
+  .news-feed > .card-deck {
+    display: flex;
+  }
+
   .happy-hour-text {
     padding-top: 0.1em;
     padding-bottom: 0.09em;
