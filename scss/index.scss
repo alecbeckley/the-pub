@@ -21,6 +21,11 @@ body {
   border-radius: 0;
 }
 
+html,
+body {
+  background-color: black;
+}
+
 //Hamburger Button
 .navbar > .navbar-toggler > .navbar-toggler-icon {
   background-image: url("../img/hamburger.png");
@@ -32,18 +37,96 @@ body {
 @media (min-width: 200px) {
 
   //Navigation Bar
+  .navbar > .collapse > .navbar-nav > .nav-item {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-item {
+    color: white;
+    font-family: $secondary-font;
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .nav-item:hover {
+    color: $primary-color;
+  }
   //Navigation Bar
 
   //Header
+  .header > h1 {
+    font-family: $primary-font;
+    font-size: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+  }
+
+  .header > p {
+    font-family: $secondary-font;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+  }
   //Header
 
   //Picture Carousel
   //Picture Carousel
 
   //News Feed
+  .news-feed {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+    .card-deck {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    background-color: black;
+  }
+
+  .card-title {
+    font-family: $secondary-font;
+  }
+
+  .happy-hour-text {
+    background-color: $primary-color;
+    font-family: $secondary-font;
+    font-size: 1.9em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 0;
+  }
   //News Feed
 
   //Footer
+  .footer > .row > .container > .text-container > h5 {
+    font-family: $primary-font;
+    font-size: 2em;
+  }
+
+  .footer > .row > .container > .text-container > p {
+    font-family: $secondary-font;
+  }
+
+  .sm-icons {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sm-icons > a > img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;;
+    width: 3em;
+  }
   //Footer
     
 }
@@ -68,29 +151,10 @@ body {
 
 }
 
-// Laptops (1000px and up)
+// Laptops (1300px and up)
 @media (min-width: 1000px) {
 
   //Navigation Bar
-  .navbar {
-    background-color: black;
-    display: flex;
-  }
-
-  .navbar > .navbar-collapse {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .nav-item {
-    color: white;
-    font-family: $primary-font;
-    font-size: 1.4em;
-  }
-
-  .nav-item:hover {
-    color: $primary-color;
-  }
   //Navigation Bar
 
   //Header
@@ -100,6 +164,11 @@ body {
   //Picture Carousel
 
   //News Feed
+  .happy-hour-text {
+    padding-top: 0.1em;
+    padding-bottom: 0.09em;
+    margin-bottom: 0;
+  }
   //News Feed
 
   //Footer
