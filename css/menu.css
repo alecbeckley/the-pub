@@ -46,6 +46,13 @@ body {
     font-size: 1.2em;
     padding-bottom: 1em; }
 
+  .card {
+    background-color: black; }
+
+  .appetizers > .appetizer-items > .card > img {
+    max-width: 15em;
+    max-height: 20em; }
+
   .footer > .row > .container > .text-container > h5 {
     font-family: "Staatliches", serif;
     font-size: 2em; }
