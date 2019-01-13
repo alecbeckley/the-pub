@@ -1,0 +1,69 @@
+/*===== Google Fonts =====*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Staatliches");
+/*===== Variables ======*/
+/*===== Mixins =====*/
+/*===== General Styling =====*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  border-radius: 0; }
+
+html,
+body {
+  background-color: black; }
+
+.navbar > .navbar-toggler > .navbar-toggler-icon {
+  background-image: url("../img/hamburger.png"); }
+
+/*===== Media Queries =====*/
+@media (min-width: 200px) {
+  .navbar > .collapse > .navbar-nav > .nav-item {
+    display: flex;
+    justify-content: space-evenly; }
+
+  .nav-item {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em; }
+
+  .nav-item:hover {
+    color: #d4af37; }
+
+  .header > h1 {
+    font-family: "Staatliches", serif;
+    font-size: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em; }
+
+  .header > p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 1em; }
+
+  .footer > .row > .container > .text-container > h5 {
+    font-family: "Staatliches", serif;
+    font-size: 2em; }
+
+  .footer > .row > .container > .text-container > p {
+    font-family: "Montserrat", sans-serif; }
+
+  .sm-icons {
+    background-color: #d4af37;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
+  .sm-icons > a > img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 3em; } }
+
+/*# sourceMappingURL=menu.css.map */

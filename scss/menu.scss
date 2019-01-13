@@ -1,0 +1,157 @@
+/*===== Google Fonts =====*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches');
+
+/*===== Variables ======*/
+$primary-font: 'Staatliches', serif;
+$secondary-font: 'Montserrat', sans-serif;
+
+$primary-color: #d4af37;
+
+/*===== Mixins =====*/
+
+/*===== General Styling =====*/
+//No white space
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  border-radius: 0;
+}
+
+html,
+body {
+  background-color: black;
+}
+
+//Hamburger Button
+.navbar > .navbar-toggler > .navbar-toggler-icon {
+  background-image: url("../img/hamburger.png");
+}
+
+/*===== Media Queries =====*/
+
+// Phones (200px and up)
+@media (min-width: 200px) {
+
+  //Navigation Bar
+  .navbar > .collapse > .navbar-nav > .nav-item {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-item {
+    color: white;
+    font-family: $secondary-font;
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .nav-item:hover {
+    color: $primary-color;
+  }
+  //Navigation Bar
+
+  //Header
+  .header > h1 {
+    font-family: $primary-font;
+    font-size: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+  }
+
+  .header > p {
+    font-family: $secondary-font;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+  }
+  //Header
+
+  
+  //Footer
+  .footer > .row > .container > .text-container > h5 {
+    font-family: $primary-font;
+    font-size: 2em;
+  }
+
+  .footer > .row > .container > .text-container > p {
+    font-family: $secondary-font;
+  }
+
+  .sm-icons {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sm-icons > a > img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;;
+    width: 3em;
+  }
+  //Footer
+    
+}
+
+// Tablets (576px and up)
+@media (min-width: 700px) {
+
+  //Navigation Bar
+  //Navigation Bar
+
+  //Header
+  //Header
+
+  //Picture Carousel
+  //Picture Carousel
+
+  //News Feed
+  //News Feed
+
+  //Footer
+  //Footer
+
+}
+
+// Laptops (1300px and up)
+@media (min-width: 1000px) {
+
+  //Navigation Bar
+  //Navigation Bar
+
+  //Header
+  //Header
+
+  //Picture Carousel
+  //Picture Carousel
+
+  //Footer
+  //Footer
+
+}
+
+// Desktops (2500px and up)
+@media (min-width: 2500px) {
+
+  //Navigation Bar
+  //Navigation Bar
+
+  //Header
+  //Header
+
+  //Picture Carousel
+  //Picture Carousel
+
+  //News Feed
+  //News Feed
+
+  //Footer
+  //Footer
+
+}
