@@ -69,6 +69,9 @@ body {
     padding-bottom: 1.5em;
     margin-bottom: 0; }
 
+  .card-footer > a {
+    color: #d4af37; }
+
   .footer > .row > .container > .text-container > h5 {
     font-family: "Staatliches", serif;
     font-size: 2em; }
